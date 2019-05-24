@@ -3,7 +3,7 @@ const sha256 = require('sha256');
 const ExpressRESTService = require("express-rest-service");
 
 const Datastore = require('nedb');
-const db = new Datastore({filename: './db/users.db', autoload: true});
+const db = new Datastore({filename: './database/users.db', autoload: true});
 
 db.ensureIndex({fieldName: '_id', unique: true}, function (error) {
 	!!error && console.error(error);

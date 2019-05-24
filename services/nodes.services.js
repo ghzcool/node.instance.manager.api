@@ -12,7 +12,7 @@ const ExpressRESTService = require("express-rest-service");
 const decompress = require('decompress');
 
 const Datastore = require('nedb');
-const db = new Datastore({filename: './db/nodes.db', autoload: true});
+const db = new Datastore({filename: './database/nodes.db', autoload: true});
 
 db.ensureIndex({fieldName: '_id', unique: true}, function (error) {
     !!error && console.error(error);

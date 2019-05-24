@@ -10,8 +10,8 @@ const fs = require('fs');
 if(!fs.existsSync('./nodes')) {
 	fs.mkdirSync('./nodes');
 }
-if(!fs.existsSync('./db')) {
-	fs.mkdirSync('./db');
+if(!fs.existsSync('./database')) {
+	fs.mkdirSync('./database');
 }
 if(!fs.existsSync('./uploads')) {
 	fs.mkdirSync('./uploads');
