@@ -18,7 +18,7 @@
     "pidusage": "2.0.17",
     "sha256": "0.2.0",
     "multer": "1.4.0",
-    "decompress": "4.2.0",
+    "decompress": "4.2.1",
     "diskspace": "2.0.0",
     "zip-folder": "1.0.0",
     "express-rest-service": "^1.2.0"
